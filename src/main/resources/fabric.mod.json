@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "rubidorn",
+	"version": "${version}",
+	"name": "Rubidorn",
+	"description": "This mod adds Ruby gear and equipment, as well as some fun bosses by Just_moonboy :)",
+	"authors": [
+		"Just_moonboy"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/rubidorn/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.just_moonboy.rubidorn.Rubidorn"
+		],
+		"client": [
+			"net.just_moonboy.rubidorn.RubidornClient"
+		],
+		"fabric-datagen": [
+			"net.just_moonboy.rubidorn.RubidornDataGenerator"
+		]
+	},
+	"mixins": [
+		"rubidorn.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
