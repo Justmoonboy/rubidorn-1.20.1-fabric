@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "rubidorn:block/ruby_block"
+    }
+  }
+}

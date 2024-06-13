@@ -2,6 +2,7 @@ package net.just_moonboy.rubidorn.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.just_moonboy.rubidorn.Rubidorn;
+import net.just_moonboy.rubidorn.block.ModBlocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -16,6 +17,7 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.RUBY)).entries((displayContext, entries) -> {
                         entries.add(ModItems.RUBY);
                         entries.add(ModItems.IMPURE_RUBY);
+                        entries.add(ModBlocks.RUBY_BLOCK);
 
                     }).build());
 

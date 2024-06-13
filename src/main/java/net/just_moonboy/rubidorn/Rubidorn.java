@@ -2,6 +2,7 @@ package net.just_moonboy.rubidorn;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.just_moonboy.rubidorn.block.ModBlocks;
 import net.just_moonboy.rubidorn.item.ModItemGroups;
 import net.just_moonboy.rubidorn.item.ModItems;
 import org.slf4j.Logger;
@@ -15,5 +16,6 @@ public class Rubidorn implements ModInitializer {
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

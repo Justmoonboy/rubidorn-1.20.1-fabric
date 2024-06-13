@@ -2,5 +2,7 @@
   "item.rubidorn.ruby": "Ruby",
   "item.rubidorn.impure_ruby": "Impure Ruby",
 
+  "block.rubidorn.ruby_block": "Block of Ruby",
+
   "itemgroup.ruby": "Rubidorn"
 }
