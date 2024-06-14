@@ -18,6 +18,8 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
     public static final Block RUBY_BLOCK = registerBlock("ruby_block",
             new Block(FabricBlockSettings.copyOf(Blocks.REDSTONE_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block IMPURE_RUBY_ORE = registerBlock("impure_ruby_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_REDSTONE_ORE)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

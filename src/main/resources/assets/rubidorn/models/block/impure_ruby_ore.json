@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "rubidorn:block/impure_ruby_ore"
+  }
+}

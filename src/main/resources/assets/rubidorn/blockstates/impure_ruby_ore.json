@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "rubidorn:block/impure_ruby_ore"
+    }
+  }
+}

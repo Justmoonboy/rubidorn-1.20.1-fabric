@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "rubidorn:ruby"
+    }
+  },
+  "result": {
+    "item": "rubidorn:ruby_block"
+  }
+}

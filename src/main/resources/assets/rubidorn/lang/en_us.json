@@ -3,6 +3,7 @@
   "item.rubidorn.impure_ruby": "Impure Ruby",
 
   "block.rubidorn.ruby_block": "Block of Ruby",
+  "block.rubidorn.impure_ruby_ore": "Impure Ruby Ore",
 
   "itemgroup.ruby": "Rubidorn"
 }
