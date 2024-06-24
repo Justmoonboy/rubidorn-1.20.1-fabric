@@ -19,6 +19,7 @@ public class ModItemGroups {
                         entries.add(ModItems.IMPURE_RUBY);
                         entries.add(ModBlocks.RUBY_BLOCK);
                         entries.add(ModBlocks.IMPURE_RUBY_ORE);
+                        entries.add(ModBlocks.END_STONE_IMPURE_RUBY_ORE);
 
                     }).build());
 

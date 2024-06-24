@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "rubidorn:ruby_block",
+    "rubidorn:impure_ruby_ore",
+    "rubidorn:end_stone_impure_ruby_ore"
+  ]
+}

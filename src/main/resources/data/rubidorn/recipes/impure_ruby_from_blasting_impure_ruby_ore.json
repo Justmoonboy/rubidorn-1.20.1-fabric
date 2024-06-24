@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "group": "ruby",
+  "ingredient": {
+    "item": "rubidorn:impure_ruby_ore"
+  },
+  "result": "rubidorn:impure_ruby"
+}
